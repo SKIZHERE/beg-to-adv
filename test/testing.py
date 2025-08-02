@@ -1,7 +1,7 @@
 from pathlib import Path
 from openai import OpenAI
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 client = OpenAI(api_key=OPENAI_API_KEY)
 speech_file_path = Path(__file__).parent / "speech.mp3"
 
