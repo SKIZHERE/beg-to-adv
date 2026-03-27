@@ -1,6 +1,7 @@
+# Object Oriented Programming
 """"""
 # 1
-"""
+#"""
 class Programmer:
     company = "Microsoft"
     def __init__(self, name, salary, exp):
@@ -10,10 +11,10 @@ class Programmer:
 
 ramu = Programmer("ramu", 120000, 4)
 print(ramu.name,ramu.salary,ramu.exp,ramu.company)
-"""
+#"""
 
 # 2 calculator
-"""
+#"""
 class Calculator:
     def __init__(self,n):
         self.n = n
@@ -29,10 +30,10 @@ print(a.n)
 a.sqrt()
 a.square()
 a.cube()
-"""
+#"""
 
 # 3
-"""
+#"""
 class temp:
     a=6
 
@@ -42,9 +43,9 @@ obj.a = 0 # Instance Attribute
 print(obj.a)
 print(temp().a)
 # Class Attribute does not change, it remains but object property changes
-"""
+#"""
 # 4
-"""
+#"""
 class Calculator:
     def __init__(self,n):
         self.n = n
@@ -65,10 +66,10 @@ a.sqrt()
 a.square()
 a.cube()
 a.greet()
-"""
+#"""
 
 # 5, 6
-"""
+#"""
 import random
 
 class Train:
@@ -89,4 +90,4 @@ ram = Train(123125)
 ram.getFare("Delhi","Chennai")
 ram.bookTicket("Delhi","Chennai")
 ram.getStatus()
-"""
+#"""

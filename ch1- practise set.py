@@ -1,6 +1,7 @@
+# Modules, Comments, pip
 """"""
 # 1
-"""
+#"""
 print('''
 Twinkle, twinkle, little star,
 How I wonder what you are!
@@ -29,19 +30,19 @@ Twinkle, twinkle, little star.
 
 
 ''')
-"""
+#"""
 # 3
-"""
+#"""
 import statistics as sas
 a = 5
 b = 11
 c = 8
 l = (a,b,c)
 print(sas.mean(l))
-"""
+#"""
 
 # 4
-"""
+#"""
 import os  # module
 
 # Specify the directory path
@@ -55,4 +56,4 @@ print("Files and directories in '", path, "':")
 # for loop because entries are in list
 for entry in entries:
     print(entry)
-"""
+#"""

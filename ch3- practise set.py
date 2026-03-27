@@ -1,6 +1,7 @@
+# Strings
 """"""
 # 1
-"""
+#"""
 import datetime
 name = str(input("Your Name:"))
 
@@ -19,10 +20,10 @@ else:
 
 greet = f"Hi {name} Good {x}"
 print(greet)
-"""
+#"""
 
 # 2
-"""
+#"""
 Name = str(input("Name :"))
 Date = str(input("Date :"))
 letter = f'''
@@ -30,10 +31,10 @@ Dear {Name},
 You are selected!
 {Date}'''
 print(letter)
-"""
+#"""
 
 # 3
-"""
+#"""
 a = "Hi this is  a sentence  with double  spaces"
 r = len(a)
 n = 0
@@ -42,10 +43,10 @@ for i in range(r):
     if a[i] ==" " and a[i+1] == " ":
         n+=1
 print(f"the total number of double spaces are {n}")
-"""
+#"""
 
 # 4
-"""
+#"""
 a = "Hi this is  a sentence  with double  spaces"
 r = len(a)
 n = 0
@@ -54,10 +55,10 @@ for i in range(r):
     if a[i] == " " and a[i + 1] == " ":
         n += 1
 print(f"the total number of double spaces are {n}")
-"""
+#"""
 
 # 5
-"""
+#"""
 letter = "Dear Harry,\nthis python course is nice.\nThanks!"
 print(letter)
-"""
+#"""

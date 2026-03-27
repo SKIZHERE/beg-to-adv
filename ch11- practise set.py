@@ -1,7 +1,8 @@
+# Inheritance and more on OOPs
 """"""
 # 1  Create a class (2-D vector) and use it to create another class representing a 3-D vector.
 
-"""
+#"""
 class vector2D:
     def __init__(self, i, j):
         self.i = i
@@ -25,13 +26,13 @@ print(inp.val2D())
 
 inp2 = vector3D(3, 7, 8)
 print(inp2.val3D())
-"""
+#"""
 
 
 # 2 Create a class ‘Pets’ from a class ‘Animals’ and further create a class ‘Dog’ from ‘Pets’.
 # Add a method ‘bark’ to class ‘Dog’.
 
-"""
+#"""
 class Animals:
     def __init__(self, n):
         self.n = n
@@ -60,13 +61,13 @@ pet = Dog("Rosy")
 pet.isPet()
 pet.isAnimal()
 pet.bark()
-"""
+#"""
 
 # 3 Create a class ‘Employee’ and add salary and increment properties to it.
 # Write a method ‘salaryAfterIncrement’ method with a @property decorator with a setter
 # which changes the value of increment based on the salary.
 
-"""
+#"""
 class Employee:
     def __init__(self, name, PF = 1000):
         self.name = name
@@ -97,12 +98,12 @@ emp.increment()
 print(emp.salaryAfterIncrement)
 
 print(emp)
-"""
+#"""
 
 # 4 Write a class ‘Complex’ to represent complex numbers, along with overloaded
 # operators ‘+’ and ‘*’ which adds and multiplies them.
 
-"""
+#"""
 class Complex:
     def __init__(self, im=0, re=0):
         self.im = im
@@ -122,7 +123,7 @@ print(c2)
 
 print(n1+n2)
 print(n1*n2)
-"""
+#"""
 
 # 5. Write a class vector representing a vector of n dimensions. Overload the + and *
 # operator which calculates the sum and the dot(.) product of them.
@@ -134,7 +135,7 @@ print(n1*n2)
 # 7. Override the __len__() method on vector of problem 5 to display the dimension of the
 # vector.
 
-"""
+#"""
 class vector:
     def __init__(self, i=0, j=0, k=0):
         self.i = i
@@ -163,4 +164,4 @@ print(v2)
 print(v1+v2)
 print(v1*v2)
 print(len(v1))
-"""
+#"""
