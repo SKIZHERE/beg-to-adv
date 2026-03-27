@@ -121,8 +121,8 @@ print(c1)
 c2 = Complex(2,6)
 print(c2)
 
-print(n1+n2)
-print(n1*n2)
+print(c1+c2)
+print(c1*c2)
 #"""
 
 # 5. Write a class vector representing a vector of n dimensions. Overload the + and *
